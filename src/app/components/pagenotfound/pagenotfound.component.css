@@ -1,0 +1,29 @@
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    text-align: center;
+}
+.text{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.text-error{
+    text-align: center;
+    padding: 20px;
+    font-family:cursive ;
+}
+.error{
+    font-family:'Roboto',sas-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 15px;
+    background: #6200ee;
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 600px;
+}

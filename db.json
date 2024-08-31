@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "firstName": "siddu",
+      "lastName": "siddaiah",
+      "email": "dfd@gmail.com",
+      "mobileNumber": 998877,
+      "city": "hyddd",
+      "id": 5
+    }
+  ],
+  "singnup": [
+    {
+      "name": "sss",
+      "email": "dsddd",
+      "password": "aa",
+      "id": 1
+    },
+    {
+      "name": "kumari",
+      "email": "kumari@gmail.com",
+      "password": "Kumari@123",
+      "id": 2
+    },
+    {
+      "name": "siddu111",
+      "email": "siddu1234@gmail.com",
+      "password": "Siddu@89",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

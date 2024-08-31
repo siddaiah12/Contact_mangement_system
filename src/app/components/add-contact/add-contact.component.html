@@ -1,0 +1,48 @@
+<div class="contaner-fluid">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="image">
+        <img src="https://salestack.in/admin/api/uploads/Product//1660628686Qz8l94Ic.png" alt="" class="img-fluid">
+      </div>
+    </div>
+    <div class="col-md-7">
+      <div class="card">
+        <h5>Add Contact</h5>
+        <div class="row">
+          <form [formGroup]="contactForm">
+            <div class="mb-3">
+              <label for="firstName" class="form-label">First Name</label>
+              <input type="text" class="form-control" placeholder="Enter First Name" formControlName="firstName">
+            </div>
+            <div class="mb-3">
+              <label for="lastName" class="form-label">Last Name</label>
+              <input type="text" class="form-control" placeholder="Enter Last Name" formControlName="lastName">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="text" class="form-control" placeholder="Enter Email" formControlName="email">
+            </div>
+            <div class="mb-3">
+              <label for="mobileNumber" class="form-label">Mobile Number</label>
+              <input type="number" class="form-control" placeholder="Enter Mobile Number"
+                formControlName="mobileNumber">
+            </div>
+            <div class="mb-3">
+              <label for="city" class="form-label">City</label>
+              <input type="text" class="form-control" placeholder="Enter City" formControlName="city">
+            </div>
+            <!-- <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div> -->
+            <div class="text-center mt-2">
+              <button type="submit" class="btn btn-primary" style="margin-right:10px"
+                (click)="submitContactForm(this.contactForm.value)" [disabled]="this.contactForm.invalid">Submit</button>
+              <button type="submit" class="btn btn-success" routerLink="/ContactList">Cancel</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
